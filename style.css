@@ -1,0 +1,144 @@
+:root {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    min-width: 100vw;
+    width: 100vw;
+}
+
+header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 15px 15%;
+}
+
+.logo-container {
+    font-weight: bold;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    width: 100%;
+    min-width: 100%;
+    padding: 150px 15% 150px 15%;
+    display: flex;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    width: 500px;
+}
+
+.hero-sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 15px;
+    width: 450px;
+}
+
+.sign-up-button {
+    color: white;
+    background-color: #3882F6;
+    width: 140px;
+    height: 50px;
+    padding: 3px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: rgb(109, 116, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+.content {
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.subcontent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-container {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.img-text {
+    max-width: 150px;
+}
+
+.content-container {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    width: 100%;
+    min-width:100%;
+    padding: 50px;
+}
+
+.quote {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.main-quote {
+    font-size: 36px;
+    ;
+}
